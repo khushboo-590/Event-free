@@ -14,24 +14,31 @@
 .lh-48 {
     line-height: 48.6px;
 }
-.lh-65{
+
+.lh-65 {
     line-height: 65.52px;
 }
+
 .lh-25 {
     line-height: 25.94px;
 }
-.lh-52{
+
+.lh-52 {
     line-height: 52.5px;
 }
-.lh-27{
+
+.lh-27 {
     line-height: 27px;
 }
-.lh-21{
+
+.lh-21 {
     line-height: 21px;
 }
-.lh-36{
+
+.lh-36 {
     line-height: 36px;
 }
+
 .lh-62 {
     line-height: 62.4px;
 }
@@ -282,33 +289,91 @@
     background-position: center;
     background: #2C49FECC;
 }
-.py-40{
+
+.py-40 {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
 .max-w-708 {
     max-width: 708px;
 }
+
 /* -------------------section-3------------- */
-.max-w-543{
+.max-w-543 {
     max-width: 543px;
 }
+
 /* Group 24 */
-.card-1{
-max-width: 339px;
-height: 354px;
-padding: 10px;
+.card-1 {
+    max-width: 339px;
+    height: 354px;
+    padding: 10px;
 }
-.card-1:hover{
-box-shadow: 2px 9px 32px 0px #0000000F;
-border-radius: 5px;
-background-color: var(--white-color);}
-.max-w-270{
+
+.card-1:hover {
+    box-shadow: 2px 9px 32px 0px #0000000F;
+    border-radius: 5px;
+    background-color: var(--white-color);
+}
+
+.max-w-270 {
     max-width: 270px;
 }
-.pl-10{
+
+.pl-10 {
     padding-left: 10px;
 }
+.gap-16{
+    gap: 16px;
+}
+input [type="text"],
+[id="fn"],
+[id="ln"],
+[id="password"] {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    width: 279px;
+    font-size: 16px;
+    border: 1px solid #00000066;
+    line-height: 24px;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 16px;
+}
+input [type="email"],[id="email"]{
+    font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        width: 574px;
+        font-size: 16px;
+        border: 1px solid #00000066;
+        line-height: 24px;
+        border-radius: 5px;
+        padding: 10px;
+        color: rgba(0, 0, 0, 0.7);
+        margin-bottom: 16px;
+}
+input [type="textarea"] ,[id="message"]{
+    font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        width: 574px;
+        min-height: 154px;
+        font-size: 16px;
+        border: 1px solid #00000066;
+        line-height: 24px;
+        border-radius: 5px;
+        padding: 10px;
+        color: rgba(0, 0, 0, 0.7);
+}
+.btn-width{
+    width: 574px;
+}
+
+
 @media (max-width:991.98px) {
 
     .nav-link {
