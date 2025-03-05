@@ -6,34 +6,52 @@
 .font-family {
     font-family: "Poppins", sans-serif;
 }
-.font-family-1{
-font-family: "Yantramanav", sans-serif;}
+
+.font-family-1 {
+    font-family: "Yantramanav", sans-serif;
+}
+
 .lh-48 {
     line-height: 48.6px;
 }
-.lh-25{
+
+.lh-25 {
     line-height: 25.94px;
+}
+
+.lh-37 {
+    line-height: 37.5px;
 }
 
 .lh-24 {
     line-height: 24px;
 }
-.lh-30{
+
+.lh-72 {
+    line-height: 72px;
+}
+
+.lh-30 {
     line-height: 30px;
 }
-.lh-96{
+
+.lh-96 {
     line-height: 96px;
 }
-.lh-26{
+
+.lh-26 {
     line-height: 26px;
 }
+
 .fw-700 {
     font-weight: 700;
 }
-.fw-400{
+
+.fw-400 {
     font-weight: 400;
 }
-.fw-500{
+
+.fw-500 {
     font-weight: 500;
 }
 
@@ -51,8 +69,9 @@ font-family: "Yantramanav", sans-serif;}
     top: 0;
     left: 0;
 }
-.bg-black{
-        background: var(#00000091);
+
+.bg-black {
+    background: var(#00000091);
 }
 
 .min-vh-100 {
@@ -112,51 +131,125 @@ font-family: "Yantramanav", sans-serif;}
 .rotate-43 {
     transform: rotate(-43deg);
 }
-.mt-60{
+
+.mt-60 {
     margin-top: 60px;
 }
-.mt-100{
+
+.mt-100 {
     margin-top: 100px;
 }
-.max-w-1044{
+
+.max-w-1044 {
     max-width: 1044px;
 }
-.max-w-765{
+
+.max-w-765 {
     max-width: 765px;
 }
-.btn-radius{
+
+.btn-radius {
     border-radius: 28px;
 }
-.gap-23{
-    gap:23px;
+
+.gap-23 {
+    gap: 23px;
 }
-.max-w-962{
+
+.max-w-962 {
     max-width: 962px;
 }
-.big-btn{
-  border-radius: 150px;
-background: #2C49FEBD;
-padding:17px;
-border: none;
+
+.big-btn {
+    border-radius: 150px;
+    background: #2C49FEBD;
+    padding: 17px;
+    border: none;
 }
-.gap-50{
+
+.gap-50 {
     gap: 50px;
 }
-.gap-17{
+
+.gap-17 {
     gap: 17px;
 }
-.border{
+
+.border {
     border: 3px solid var(--white-color);
     margin-right: 70px;
 }
-.oppicity{
+
+.oppicity {
     opacity: 70%;
 }
-.btn-1{
+
+.btn-1 {
     padding: 20px 39px;
     border-radius: 150px;
 }
 
+/* --------------section-1------------------ */
+.color-border {
+    width: 189px;
+    height: 8px;
+    background: #2C49FE;
+
+}
+
+/* .color-border-1 {
+    background: #01C8FF;
+} */
+
+.py-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.card {
+    max-width: 260px;
+    border: 1px solid #2C49FE;
+    border-radius: 5px;
+    padding: 40px 40px 20px 40px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.circle {
+    width: 79px;
+    height: 79px;
+    transform: translateY(-260px);
+    border-radius: 50px;
+    left: 33%;
+    border: 2px solid #2C49FE;
+    background: var(--white-color);
+    z-index: 1;
+}
+.circle-1{
+    left: 67%;
+}
+.text-center{
+    text-align: center;
+}
+.gap-30{
+    gap: 30px;
+}
+.max-w-550{
+    max-width: 550px;
+}
+.max-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.mt-40{
+    margin-top: 40px;
+}
 @media (max-width:991.98px) {
 
     .nav-link {

@@ -3,6 +3,7 @@
     --light-black: #00000091;
     --blue-color: #2C49FE;
     --sky-blue: #01C8FF;
+    --black-color: #000000;
     --white-color: #FFFFFF;
 
    /* ------- font-size------ */
@@ -10,10 +11,15 @@
    --text-sm:16px;
    --text-md:20px;
    --text-lg:36px;
-   --text-xl:64px;
+   --text-xl:48px;
+   --text-2xl:64px;
+   --text-md-2:25px;
 }
 .bg-light-black{
     background:var(--light-black);
+}
+.fc-black {
+    color: var(--black-color);
 }
 .fc-blue{
     color: var(--blue-color);
@@ -41,7 +47,12 @@
 }.fs-lg {
     font-size: var(--text-lg);
 }
-
+.fs-md-2 {
+    font-size: var(--text-md-2);
+}
 .fs-xl {
     font-size: var(--text-xl);
+}
+.fs-2xl {
+    font-size: var(--text-2xl);
 }
