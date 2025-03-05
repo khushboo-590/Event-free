@@ -8,6 +8,7 @@
 
    /* ------- font-size------ */
    --text-base:14px;
+   --text-base-1:12px;
    --text-sm:16px;
    --text-sm-1:18px;
    --text-md:20px;
@@ -40,6 +41,9 @@
 }
 .fs-base {
     font-size: var(--text-base);
+}
+.fs-base-1 {
+    font-size: var(--text-base-1);
 }
 .fs-sm{
     font-size: var(--text-sm);

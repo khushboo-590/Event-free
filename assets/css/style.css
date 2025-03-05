@@ -67,6 +67,10 @@
     line-height: 26px;
 }
 
+.lh-18 {
+    line-height: 18px;
+}
+
 .fw-700 {
     font-weight: 700;
 }
@@ -324,9 +328,11 @@
 .pl-10 {
     padding-left: 10px;
 }
-.gap-16{
+
+.gap-16 {
     gap: 16px;
 }
+
 input [type="text"],
 [id="fn"],
 [id="ln"],
@@ -343,36 +349,56 @@ input [type="text"],
     color: rgba(0, 0, 0, 0.7);
     margin-bottom: 16px;
 }
-input [type="email"],[id="email"]{
+
+input [type="email"],
+[id="email"] {
     font-family: "Poppins", sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        width: 574px;
-        font-size: 16px;
-        border: 1px solid #00000066;
-        line-height: 24px;
-        border-radius: 5px;
-        padding: 10px;
-        color: rgba(0, 0, 0, 0.7);
-        margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 574px;
+    font-size: 16px;
+    border: 1px solid #00000066;
+    line-height: 24px;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 16px;
 }
-input [type="textarea"] ,[id="message"]{
+
+input [type="textarea"],
+[id="message"] {
     font-family: "Poppins", sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        width: 574px;
-        min-height: 154px;
-        font-size: 16px;
-        border: 1px solid #00000066;
-        line-height: 24px;
-        border-radius: 5px;
-        padding: 10px;
-        color: rgba(0, 0, 0, 0.7);
+    font-style: normal;
+    font-weight: 400;
+    width: 574px;
+    min-height: 154px;
+    font-size: 16px;
+    border: 1px solid #00000066;
+    line-height: 24px;
+    border-radius: 5px;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.7);
 }
-.btn-width{
+
+.btn-width {
     width: 574px;
 }
 
+/* ------------------------footer------------------- */
+.max-w-346 {
+    max-width: 346.18px;
+}
+
+.pt-11 {
+    padding-top: 11px;
+}
+
+.show-box {
+    background: #2D3CAE87;
+    width: 90.05px;
+    height: 62px;
+
+}
 
 @media (max-width:991.98px) {
 
