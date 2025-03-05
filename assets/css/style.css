@@ -14,7 +14,9 @@
 .lh-48 {
     line-height: 48.6px;
 }
-
+.lh-65{
+    line-height: 65.52px;
+}
 .lh-25 {
     line-height: 25.94px;
 }
@@ -24,7 +26,12 @@
 .lh-27{
     line-height: 27px;
 }
-
+.lh-21{
+    line-height: 21px;
+}
+.lh-36{
+    line-height: 36px;
+}
 .lh-62 {
     line-height: 62.4px;
 }
@@ -282,7 +289,26 @@
 .max-w-708 {
     max-width: 708px;
 }
-
+/* -------------------section-3------------- */
+.max-w-543{
+    max-width: 543px;
+}
+/* Group 24 */
+.card-1{
+max-width: 339px;
+height: 354px;
+padding: 10px;
+}
+.card-1:hover{
+box-shadow: 2px 9px 32px 0px #0000000F;
+border-radius: 5px;
+background-color: var(--white-color);}
+.max-w-270{
+    max-width: 270px;
+}
+.pl-10{
+    padding-left: 10px;
+}
 @media (max-width:991.98px) {
 
     .nav-link {
