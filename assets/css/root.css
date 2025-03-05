@@ -6,9 +6,11 @@
     --white-color: #FFFFFF;
 
    /* ------- font-size------ */
+   --text-base:14px;
    --text-sm:16px;
-   --text-md:24px;
+   --text-md:20px;
    --text-lg:36px;
+   --text-xl:64px;
 }
 .bg-light-black{
     background:var(--light-black);
@@ -25,6 +27,12 @@
 .fc-white{
     color:var(--white-color)
 }
+.bg-white{
+    background: var(--white-color);
+}
+.fs-base {
+    font-size: var(--text-base);
+}
 .fs-sm{
     font-size: var(--text-sm);
 }
@@ -32,4 +40,8 @@
     font-size: var(--text-md);
 }.fs-lg {
     font-size: var(--text-lg);
+}
+
+.fs-xl {
+    font-size: var(--text-xl);
 }
