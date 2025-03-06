@@ -382,6 +382,7 @@ input [type="textarea"],
 
 .btn-width {
     width: 574px;
+    border: none;
 }
 
 /* ------------------------footer------------------- */
@@ -395,9 +396,47 @@ input [type="textarea"],
 
 .show-box {
     background: #2D3CAE87;
-    width: 90.05px;
+    /* width: 90.05px; */
+    padding: 30px;
     height: 62px;
 
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+.space {
+    margin-top: 0;
+}
+.display{
+display:flex;}
+@media(max-width:1199.98px) {
+    .justify {
+        justify-content: none;
+    }
+    .max-w-543{
+        max-width: none;
+    }
+
+    input[type="text"],
+    [id="fn"],
+    [id="ln"],
+    [id="password"],
+    .btn-width {
+        width: 100%;
+    }
+
+    input [type="email"],
+    [id="email"],
+    .input [type="textarea"],
+    [id="message"] {
+        width: 100%;
+    }
+
+    .center {
+        text-align: center;
+    }
 }
 
 @media (max-width:991.98px) {
@@ -421,4 +460,85 @@ input [type="textarea"],
     .show-navbar {
         right: 0 !important;
     }
+        .lh-48 {
+            line-height: 42.6px;
+        }
+    
+        .lh-65 {
+            line-height: 60.52px;
+        }
+    
+        .lh-25 {
+            line-height: 21.94px;
+        }
+    
+        .lh-52 {
+            line-height: 45.5px;
+        }
+    
+        .lh-27 {
+            line-height: 22px;
+        }
+    
+        .lh-21 {
+            line-height: 17px;
+        }
+    
+        .lh-36 {
+            line-height: 28px;
+        }
+    
+        .lh-62 {
+            line-height: 52.4px;
+        }
+    
+        .lh-37 {
+            line-height: 31.5px;
+        }
+    
+        .lh-24 {
+            line-height: 20px;
+        }
+    
+        .lh-72 {
+            line-height: 63px;
+        }
+    
+        .lh-30 {
+            line-height: 25px;
+        }
+    
+        .lh-96 {
+            line-height: 80px;
+        }
+    
+        .lh-26 {
+            line-height: 22px;
+        }
+    
+        .lh-18 {
+            line-height: 15px;
+        }
+/* .display{
+    display: flex!important;
+    flex-direction: column;
+} */
+}
+
+@media(max-width:767.98px) {
+
+    .top-margin {
+        margin-top: 30px;
+    }
+
+}
+@media(max-width:565.98px) {
+
+
+
+    .display {
+        display: flex !important;
+        flex-direction: column;
+    }
+
 }

@@ -1,4 +1,4 @@
-:root{
+:root {
     /* ------colors------ */
     --light-black: #00000091;
     --blue-color: #2C49FE;
@@ -6,66 +6,128 @@
     --black-color: #000000;
     --white-color: #FFFFFF;
 
-   /* ------- font-size------ */
-   --text-base:14px;
-   --text-base-1:12px;
-   --text-sm:16px;
-   --text-sm-1:18px;
-   --text-md:20px;
-   --text-lg:36px;
-   --text-xl:48px;
-   --text-2xl:64px;
-   --text-md-2:25px;
-   --text-lg-1:35px;
+    /* ------- font-size------ */
+    --text-base: 14px;
+    --text-base-1: 12px;
+    --text-sm: 16px;
+    --text-sm-1: 18px;
+    --text-md: 20px;
+    --text-lg: 36px;
+    --text-xl: 48px;
+    --text-2xl: 64px;
+    --text-md-2: 25px;
+    --text-lg-1: 35px;
 }
-.bg-light-black{
-    background:var(--light-black);
+
+.bg-light-black {
+    background: var(--light-black);
 }
+
 .fc-black {
     color: var(--black-color);
 }
-.fc-blue{
+
+.fc-blue {
     color: var(--blue-color);
 }
+
 .bg-blue {
     background: var(--blue-color);
 }
-.fc-sky-blue{
+
+.fc-sky-blue {
     color: var(--sky-blue);
 }
-.fc-white{
-    color:var(--white-color)
+
+.fc-white {
+    color: var(--white-color)
 }
-.bg-white{
+
+.bg-white {
     background: var(--white-color);
 }
+
 .fs-base {
     font-size: var(--text-base);
 }
+
 .fs-base-1 {
     font-size: var(--text-base-1);
 }
-.fs-sm{
+
+.fs-sm {
     font-size: var(--text-sm);
 }
+
 .fs-sm-1 {
     font-size: var(--text-sm-1);
 }
+
 .fs-md {
     font-size: var(--text-md);
-}.fs-lg {
+}
+
+.fs-lg {
     font-size: var(--text-lg);
 }
 
 .fs-lg-1 {
     font-size: var(--text-lg-1);
 }
+
 .fs-md-2 {
     font-size: var(--text-md-2);
 }
+
 .fs-xl {
     font-size: var(--text-xl);
 }
+
 .fs-2xl {
     font-size: var(--text-2xl);
+}
+
+@media(max-width:991.98px) {
+    :root {
+        --text-base: 12px;
+        --text-base-1: 10px;
+        --text-sm: 14px;
+        --text-sm-1: 16px;
+        --text-md: 18px;
+        --text-lg: 30px;
+        --text-xl: 40px;
+        --text-2xl: 59px;
+        --text-md-2: 20px;
+        --text-lg-1: 30px;
+    }
+}
+
+@media(max-width:765.98px) {
+    :root {
+        --text-base: 12px;
+        --text-base-1: 10px;
+        --text-sm: 14px;
+        --text-sm-1: 16px;
+        --text-md: 18px;
+        --text-lg: 25px;
+        --text-xl: 34px;
+        --text-2xl: 50px;
+        --text-md-2: 16px;
+        --text-lg-1: 27px;
+    }
+}
+
+@media(max-width:575.98px) {
+    :root {
+        --text-base: 10px;
+        --text-base-1: 8px;
+        --text-sm: 12px;
+        --text-sm-1: 14px;
+        --text-md: 16px;
+        --text-lg: 20px;
+        --text-xl: 30px;
+        --text-2xl: 45px;
+        --text-md-2: 14px;
+        --text-lg-1: 22px;
+    }
 }
