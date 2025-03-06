@@ -4,7 +4,7 @@
     --blue-color: #2C49FE;
     --sky-blue: #01C8FF;
     --black-color: #000000;
-    --white-color: #FFFFFF;
+    --white-color: #FFFFFF ;
 
     /* ------- font-size------ */
     --text-base: 14px;
@@ -40,7 +40,7 @@
 }
 
 .fc-white {
-    color: var(--white-color)
+    color: var(--white-color);
 }
 
 .bg-white {
@@ -111,7 +111,7 @@
         --text-md: 18px;
         --text-lg: 25px;
         --text-xl: 34px;
-        --text-2xl: 50px;
+        --text-2xl: 48px;
         --text-md-2: 16px;
         --text-lg-1: 27px;
     }
@@ -126,8 +126,9 @@
         --text-md: 16px;
         --text-lg: 20px;
         --text-xl: 30px;
-        --text-2xl: 45px;
+        --text-2xl: 34px;
         --text-md-2: 14px;
         --text-lg-1: 22px;
     }
 }
+
