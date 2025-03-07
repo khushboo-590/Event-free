@@ -405,6 +405,9 @@ textarea {
     font-size: inherit;
     line-height: inherit;
 }
+.pt-14{
+    padding-top: 14px;
+}
 
 .btn-width {
     border: none;
